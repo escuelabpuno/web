@@ -14,10 +14,3 @@ services:
     image: php:7.0-fpm
     volumes:
       - ./drupal:/drupal
-
-  node:
-    build: ./drupal/react
-    image: node-compose:latest
-    ports:
-      - '8888:8888'
-    command: npm start
