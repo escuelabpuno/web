@@ -2,7 +2,7 @@ version: '2'
 services:
   nginx:
     image: nginx:stable
-    ports: 
+    ports:
       - "8080:80"
     volumes:
       - ./drupal:/drupal
@@ -11,6 +11,7 @@ services:
       - php
 
   php:
-    image: php:7.0-fpm
+    build: .
+    image: php-composer
     volumes:
       - ./drupal:/drupal
