@@ -2,6 +2,7 @@ version: '2'
 services:
   nginx:
     image: nginx:stable
+    container_name: escuelab-nginx
     ports:
       - "8080:80"
     volumes:
@@ -11,7 +12,17 @@ services:
       - php
 
   php:
-    build: .
-    image: php-composer
+    image: php-custom:2.0
+    container_name: escuelab-php
     volumes:
       - ./drupal:/drupal
+    links:
+      - mysql
+  mysql:
+    image: mysql
+    container_name: escuelab-mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: escuelab
+      MYSQL_DATABASE: escuelabDB
