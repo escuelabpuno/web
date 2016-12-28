@@ -6,7 +6,7 @@ export default class WelcomeLogo extends React.Component {
   render() {
     return (
         <div className={ styles.logo }>
-          <img src="logos/logo.jpg"/>
+          <img src="logos/logonormal.png"/>
         </div>
     )
   }

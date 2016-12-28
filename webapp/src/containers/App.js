@@ -1,21 +1,21 @@
 import React, { Component } from 'react'
-import Welcome from './Welcome/Welcome'
-import Coworking from './Coworking/Coworking'
-import Experiences from './Experiences/Experiences'
-import Contact from './Contact/Contact'
-import Address from './Address/Address'
-import Footer from './Footer/Footer'
+import Welcome from 'app/modules/welcome/components/Welcome'
+// import Coworking from './Coworking/Coworking'
+// import Experiences from './Experiences/Experiences'
+// import Contact from './Contact/Contact'
+// import Address from './Address/Address'
+// import Footer from './Footer/Footer'
 
 export default class App extends React.Component {
   render() {
     return (
       <div>
         <Welcome />
-        <Coworking />
+        {/* <Coworking />
         <Experiences />
         <Contact />
         <Address />
-        <Footer />
+        <Footer /> */}
       </div>
     )
   }
