@@ -1,0 +1,7 @@
+@value --medium: 40rem;
+@value --large: 64rem;
+@value --xlarge: 85rem;
+
+@value --min-medium: (min-width: --medium);
+@value --min-large: (min-width: --large);
+@value --min-xlarge: (min-width: --xlarge);

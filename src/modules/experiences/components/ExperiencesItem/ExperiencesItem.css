@@ -1,0 +1,18 @@
+.container {
+
+}
+
+.container h3 {
+  text-align: center;
+}
+
+.container img {
+  width: 91%;
+  padding: 0 1em 0 1em;
+}
+
+.container p {
+  text-align: center;
+  font-style: italic;
+  padding: 0 1em;
+}

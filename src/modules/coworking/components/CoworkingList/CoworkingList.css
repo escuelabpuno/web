@@ -1,0 +1,16 @@
+/*@value --large from "src/local_modules/es-styleguide/breakpoints.css";*/
+
+
+.container {
+  display: flex;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/*@media only screen and --large {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}*/

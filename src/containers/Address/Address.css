@@ -1,0 +1,13 @@
+.address {
+  padding: 2em 0;
+  text-align: center;
+}
+
+.address h4 {
+  font-size: 24px;
+  line-height: 0;
+}
+
+.address p {
+  font-size: 18px;
+}
