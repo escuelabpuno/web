@@ -5,7 +5,7 @@ import styles from './CoworkingImage.css'
 export default class CoworkingImage extends React.Component {
   render() {
     return (
-      <div className={ styles.images}>
+      <div className={ styles.image }>
         <img src="images/working.jpg" />
       </div>
     )

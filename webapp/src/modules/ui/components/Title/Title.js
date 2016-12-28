@@ -6,10 +6,13 @@ import styles from './Title.css'
 export default class Title extends React.Component {
   render() {
     // const opp = this.props.children
-    const { children, className } = this.props
+    const { children, className, invert } = this.props
 
     return (
-      <div className={ classnames(styles.title, className) }>{ children }</div>
+      <div
+        className={ classnames(styles.title, className, { [styles.invert]: invert }) } >
+        { children }
+      </div>
     )
   }
 }

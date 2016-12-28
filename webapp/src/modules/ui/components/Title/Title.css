@@ -1,9 +1,15 @@
 @value --font-primary from 'app/local_modules/styleguide/typography.css';
+@value --mine-shaft, --sun from 'app/local_modules/styleguide/colors.css';
 
 .title {
+  color: --mine-shaft;
   font-size: 36px;
   text-align: center;
   padding: 1em 0 .2em 0;
   font-family: --font-primary;
-  font-weight: 200;
+  font-weight: 300;
+}
+
+.invert {
+  color: --sun;
 }

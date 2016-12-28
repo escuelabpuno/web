@@ -1,4 +1,8 @@
-import React, {PropTypes} from 'react';
+import React, {PropTypes} from 'react'
+import FaWifi from 'react-icons/lib/fa/wifi'
+import FaPrint from 'react-icons/lib/fa/print'
+import FaHome from 'react-icons/lib/fa/home'
+import FaBook from 'react-icons/lib/fa/book'
 
 import CoworkingItem from '../CoworkingItem/CoworkingItem'
 
@@ -9,20 +13,21 @@ export default class CoworkingList extends React.Component {
     return (
       <div className={ styles.container }>
         <CoworkingItem
-          title={ 'INTERNET' }
-          image={ 'logos/INTERNET-OVER.png' }/>
+          title={ 'Internet' }
+          icon={ <FaWifi /> }
+        />
 
         <CoworkingItem
-          title={ 'IMPRESORA / FOTOCOPIADORA' }
-          image={ 'logos/IMPRESORA-OVER-1.png' }/>
+          title={ 'Fotocopiadora' }
+          icon={ <FaPrint />}/>
 
         <CoworkingItem
-          title={ 'WORK SPACE' }
-          image={ 'logos/ESPACIO-PARA-REUNIONES-OVER-1.png' }/>
+          title={ 'Work Space' }
+          icon={ <FaHome /> }/>
 
         <CoworkingItem
-          title={ 'READING NET' }
-          image={ 'logos/READING-NET-OVER-1.png' }/>
+          title={ 'Reading Net' }
+          icon={ <FaBook /> }/>
 
       </div>)
 

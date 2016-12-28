@@ -1,3 +1,41 @@
+@value --font-primary from 'app/local_modules/styleguide/typography.css';
+@value --dusty-gray, --tundora, --mercury, --concrete from 'app/local_modules/styleguide/colors.css';
+
 .item {
+  border: 1px solid --concrete;
+  box-sizing: border-box;
   flex-basis: 50%;
+  text-align: center;
+}
+
+.item:first-child {
+  border-left-width: 0;
+  border-top-width: 0;
+}
+
+.item:nth-child(2) {
+  border-right-width: 0;
+  border-top-width: 0;
+}
+
+.item:nth-child(3) {
+  border-left-width: 0;
+  border-bottom-width: 0;
+}
+
+.item:last-child {
+  border-right-width: 0;
+  border-bottom-width: 0;
+}
+
+
+
+.icon {
+  color: --dusty-gray;
+  font-size: 3rem;
+}
+
+.name {
+  color: --tundora;
+  font-family: --font-primary;
 }

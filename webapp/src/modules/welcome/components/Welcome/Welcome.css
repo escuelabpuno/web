@@ -1,4 +1,4 @@
-@value --black, --yellow from 'app/local_modules/styleguide/colors.css';
+@value --black from 'app/local_modules/styleguide/colors.css';
 
 .container {
   height: 100vh;
@@ -11,8 +11,8 @@
 }
 
 .title {
-  color: --yellow;
   font-size: 3rem;
+  font-weight: 200;
 }
 
 .subtitle {

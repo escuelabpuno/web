@@ -4,12 +4,12 @@ import styles from './CoworkingItem.css'
 
 export default class CoworkingItem extends React.Component {
   render() {
-    const { title, image } = this.props
+    const { title, icon } = this.props
 
     return (
       <div className={ styles.item }>
-        <img src={ image } />
-        <p>{ title }</p>
+        <div className={ styles.icon }>{ icon }</div>
+        <p className={ styles.name }>{ title }</p>
       </div>
   )
   }
