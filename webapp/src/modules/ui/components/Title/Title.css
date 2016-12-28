@@ -1,0 +1,9 @@
+@value --font-primary from 'app/local_modules/styleguide/typography.css';
+
+.title {
+  font-size: 36px;
+  text-align: center;
+  padding: 1em 0 .2em 0;
+  font-family: --font-primary;
+  font-weight: 200;
+}
