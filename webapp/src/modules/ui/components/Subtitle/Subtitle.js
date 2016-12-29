@@ -5,10 +5,10 @@ import styles from './Subtitle.css'
 
 export default class Subtitle extends React.Component {
   render() {
-    const { children, className} = this.props
+    const { children, className, invert} = this.props
 
     return (
-      <div className={ classnames(styles.subtitle, className) }>{ children }</div>
+      <div className={ classnames(styles.subtitle, className, { [styles.invert]: invert }) }>{ children }</div>
     )
   }
 }

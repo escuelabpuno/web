@@ -1,0 +1,6 @@
+@value --black from 'app/local_modules/styleguide/colors.css';
+
+.container {
+  background-color: --black;
+  padding-bottom: 1rem;
+}

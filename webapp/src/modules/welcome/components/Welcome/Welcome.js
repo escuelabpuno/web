@@ -12,7 +12,7 @@ export default class Welcome extends React.Component {
       <div className={styles.container}>
         <WelcomeLogo />
         <Title className={ styles.title } invert>Escuelab</Title>
-        <Subtitle className={ styles.subtitle }>Aprende compartiendo, comparte aprendiendo</Subtitle>
+        <Subtitle className={ styles.subtitle } invert>Aprende compartiendo, comparte aprendiendo</Subtitle>
       </div>
     )
   }
