@@ -4,7 +4,7 @@ import CoworkingPanel from 'app/modules/coworking/components/CoworkingPanel'
 import ExperiencesPanel from 'app/modules/experiences/components/ExperiencesPanel'
 import ContactPanel from 'app/modules/contact/components/ContactPanel'
 import Address from 'app/modules/address/components/Address'
-// import Footer from './Footer/Footer'
+import FooterPanel from 'app/modules/footer/components/FooterPanel'
 
 export default class App extends React.Component {
   render() {
@@ -15,7 +15,7 @@ export default class App extends React.Component {
         <ExperiencesPanel />
         <ContactPanel />
         <Address />
-        {/* <Footer /> */}
+        <FooterPanel />
       </div>
     )
   }
