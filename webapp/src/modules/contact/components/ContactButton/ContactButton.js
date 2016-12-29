@@ -6,7 +6,7 @@ export default class ContactButton extends React.Component {
   render() {
     return (
       <div className={ styles.container }>
-        <button>ESCRÍBENOS</button>
+        <button className={ styles.btn }>ESCRÍBENOS</button>
       </div>
   )
   }

@@ -1,0 +1,19 @@
+@value --font-primary, --font-secondary from 'app/local_modules/styleguide/typography.css';
+@value --dusty-gray from 'app/local_modules/styleguide/colors.css';
+
+.address {
+  font-family: --font-primary;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 0;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: --dusty-gray;
+}

@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import Welcome from 'app/modules/welcome/components/Welcome'
 import CoworkingPanel from 'app/modules/coworking/components/CoworkingPanel'
 import ExperiencesPanel from 'app/modules/experiences/components/ExperiencesPanel'
-// import Contact from './Contact/Contact'
-// import Address from './Address/Address'
+import ContactPanel from 'app/modules/contact/components/ContactPanel'
+import Address from 'app/modules/address/components/Address'
 // import Footer from './Footer/Footer'
 
 export default class App extends React.Component {
@@ -13,9 +13,9 @@ export default class App extends React.Component {
         <Welcome />
         <CoworkingPanel />
         <ExperiencesPanel />
-        {/* <Contact />
+        <ContactPanel />
         <Address />
-        <Footer /> */}
+        {/* <Footer /> */}
       </div>
     )
   }

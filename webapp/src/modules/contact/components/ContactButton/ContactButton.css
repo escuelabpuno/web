@@ -1,9 +1,16 @@
+@value --font-secondary from 'app/local_modules/styleguide/typography.css';
+@value --sun from 'app/local_modules/styleguide/colors.css';
+
 .container {
   text-align: center;
 }
-.container button {
-  background-color: #E7E7E7;
-  border: 1px solid #454545;
-  padding: 1.3em 4em;
-  font-size: 16px;
+
+.btn {
+  font-family: --font-secondary;
+  font-weight: 600;
+  background-color: --sun;
+  border-width: 0;
+  color: white;
+  font-size: 1rem;
+  padding: 0.8125rem 3rem;
 }
