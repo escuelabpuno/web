@@ -1,0 +1,18 @@
+.arrow {
+  color: white;
+  font-size: 2.3rem;
+  top: 1%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.nextArrow {
+  composes: arrow;
+  right: 6rem;
+}
+
+.prevArrow {
+  composes: arrow;
+  left: 6rem;
+}
